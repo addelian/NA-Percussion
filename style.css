@@ -83,18 +83,18 @@ hr {
   box-shadow: 0 0 0 0.2rem rgba(106, 156, 161, 0.5);
 }
 
-a:link {
+li:link {
 	color: white;
 }
 
-a:visited {
+li:visited {
 	color: #417F85;
 }
 
-a:hover {
+li:hover {
 	color: #FFF700;
 }
 
-a:active {
+li:active {
 	color: white;
 }

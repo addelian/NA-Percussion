@@ -10,6 +10,33 @@ html {
   background-size: cover;
 }
 
+header {
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+
+header li {
+	list-style: none;
+	display: inline-block;
+	align-items: center;
+}
+
+a:link {
+	color: #3E17FF;
+}
+
+a:visited {
+	color: #FFF700;
+}
+
+a:hover {
+	color: #5E3FFC;
+}
+
+a:active {
+	color: white;
+}
+
 h1 {
 	font-size: 3rem;
 	color: #417F85;

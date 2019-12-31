@@ -22,22 +22,6 @@ header li {
 	align-items: center;
 }
 
-a:link {
-	color: white;
-}
-
-a:visited {
-	color: #417F85;
-}
-
-a:hover {
-	color: #FFF700;
-}
-
-a:active {
-	color: white;
-}
-
 h1 {
 	font-size: 3rem;
 	color: #417F85;
@@ -97,4 +81,20 @@ hr {
 .btn.btn-success:not(:disabled):not(.disabled):active:focus,
 .btn.btn-success:not(:disabled):not(.disabled).active:focus {
   box-shadow: 0 0 0 0.2rem rgba(106, 156, 161, 0.5);
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: #417F85;
+}
+
+a:hover {
+	color: #FFF700;
+}
+
+a:active {
+	color: white;
 }

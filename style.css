@@ -84,6 +84,10 @@ hr {
   box-shadow: 0 0 0 0.2rem rgba(106, 156, 161, 0.5);
 }
 
+li {
+	color: white;
+}
+
 li:link {
 	color: white;
 }

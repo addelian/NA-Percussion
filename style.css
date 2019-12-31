@@ -13,6 +13,7 @@ html {
 header {
 	text-align: center;
 	font-family: 'Questrial', sans-serif;
+	margin: 30px;
 }
 
 header li {
@@ -22,15 +23,15 @@ header li {
 }
 
 a:link {
-	color: #3E17FF;
+	color: white;
 }
 
 a:visited {
-	color: #FFF700;
+	color: #417F85;
 }
 
 a:hover {
-	color: #5E3FFC;
+	color: #FFF700;
 }
 
 a:active {

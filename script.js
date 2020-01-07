@@ -18,15 +18,15 @@ var database = [userDB];
 var newsfeed = [
     {
         username: "karen",
-        timeline: "My blood hurts!",
+        timeline: "anybody else afraid of this robot car thing?",
     },
     {
         username: "tyler",
-        timeline: "Is it hurty-blood in here or is it just me?",
+        timeline: "my mom said a robot car stole her purse today!",
     },
     {
         username: "billy",
-        timeline: "Sprayed blood poison in the hall today LOL",
+        timeline: "LOL NOTHING TO FEAR HUMANS, I MEAN FRIENDS, LET'S GO DRIVING",
     },
 ];
 

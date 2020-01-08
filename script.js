@@ -8,12 +8,24 @@ function checkDriverAge(age) {
     }
 }
 
-var userDB = {
-    username: "nic",
-    password: "hunter2",
-};
-
-var database = [userDB];
+var database = [
+    {
+        username: "nic",
+        password: "hunter2",
+    },
+    {
+        username: "karen",
+        password: "hunter3",
+    },
+    {
+        username: "tyler",
+        password: "hunter4",
+    },
+    {
+        username: "billy",
+        password: "hunter5",
+    }
+];
 
 var newsfeed = [
     {
@@ -30,15 +42,45 @@ var newsfeed = [
     },
 ];
 
-var usernamePrompt = prompt("Username:");
-var passwordPrompt = prompt("Password:");
 
-function signIn(user, pass) {
-    if (user === database[0].username && pass === database[0].password) {
+// function signIn(user, pass) {
+//     if (user === database[0].username && pass === database[0].password) {
+//         console.log(newsfeed);
+//     } else {
+//         console.log("Sorry, wrong username and/or password");
+//     }
+// }
+
+function isUserValid(username, password) {
+    for (var i=0; i < database.length; i++) {
+        if (username === database[i].username && password === database[i].password) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function signIn(username, password) {
+    if (isUserValid(username, password) === true) {
         console.log(newsfeed);
-    } else {
-        console.log("Sorry, wrong username and/or password");
     }
 }
 
+var usernamePrompt = prompt("Username:");
+var passwordPrompt = prompt("Password:");
+
 signIn(usernamePrompt, passwordPrompt);
+
+// signIn(usernamePrompt, passwordPrompt);
+
+// var todos = [
+//     "clean room",
+//     "brush teeth",
+//     "exercise",
+//     "study javascript",
+//     "eat healthy"
+// ];
+
+// for (var i=0; i < todos.length; i++) {
+//     console.log(todos[i] + "!");
+// }

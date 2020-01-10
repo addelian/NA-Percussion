@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>NAPerc</title>
+<head>
+  <title> Figure OUT yer TIPS!</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      
-      <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
   <body>
-      <header>
-	<nav>
-	<ul>
-		<li><a href="index.html">Welcome</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="register.html">Register</a></li>
-	</ul>
-	</nav>
-       </header>
-	  <hr>
-    <div class="container d-flex align-items-center h-100">
-      <div class="row">
-        <header class="text-center col-12">
-          <h1 class="text-uppercase"><strong>Nic Addelia - Developer. Percussionist. Educator.</strong></h1>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-         <hr>
-        <a href="https://mailchi.mp/4767486136a4/napercussionemail">
-          <button type="button" class="btn btn-success">Find out more</button>
-        </a>
-        </section>
+    <div id="container">
+      <h1>Service-o-meter</h1>
+      <div id="calculator">
+
+
+        <form>
+          <p>How much was your bill?
+            <p>
+              $ <input id="billamt" type="text" placeholder="Bill Amount">
+
+              <p>How was your service?
+                <p>
+                  <select id="serviceQual">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.3">30&#37; &#45; Outstanding</option>
+                <option value="0.2">20&#37; &#45; Good</option>
+                <option value="0.15">15&#37; &#45; It was OK</option>
+                <option value="0.1">10&#37; &#45; Bad</option>
+                <option value="0.05">5&#37; &#45; Terrible</option>
+            </select>
+
+        </form>
+        <p>How many people are sharing the bill?</p>
+        <input id="peopleamt" type="text" placeholder="Number of People"> people
+        <button type="button" id="calculate">Calculate!</button>
+
       </div>
+      <!--calculator end-->
+      <div id="totalTip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+      </div>
+      <!--totalTip end-->
+
     </div>
+    <!--container end-->
+
+    <script type="text/javascript" src="tipcalculator.js"></script>
+
   </body>
-</html>
+
+  </html>

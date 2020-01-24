@@ -97,3 +97,7 @@ hr {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+li {
+  font-weight: lighter;;
+}

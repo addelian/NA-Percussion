@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NA Percussion</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+		<!-- CSS Files from PK -->
+		<link href="./assets/css/paper-kit.css" rel="stylesheet" />
+		<link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!--     Fonts / icons    -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+	
+	
+		<!-- My CSS-->
+		<link href="style.css" rel ="stylesheet">
+	  </head>
+<body>
+	<header>
+
+		<nav aria-label="breadcrumb" role="navigation">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item"><a href="htmlplayground.html">About</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Projects</li>
+				<li class="breadcrumb-item"><a href="https://mailchi.mp/4767486136a4/napercussionemail" target="_blank">Register</a></li>
+			</ol>
+		</nav>
+
+	</header><br>
+	<section id = "about-welcome">
+		<h1><strong>Coding Projects</strong></h1><br> 
+		Projects will continue to be added as I build them.<hr>
+	</section>
+	<section id = "about-welcome">
+
+		<p><a href="./GigCalculator/GigCalc.html" target="_blank"><strong>"The Gig-o-Meter" - Gig Payment Calculator</strong></a><br>
+		<p>This calculator is based loosely off of a tip calculator, with modified calculations to fit the indicated inputs.<br></p>
+
+			<p>As a jazz drummer, I am often approached about performances ("gigs") with very little advance notice. As I accepted more gigs around the area,<br>
+			I realized that I was beginning to lose track of how much money I was actually making (or had the potential to make) at each gig. To help facili-<br>
+			tate a well-informed decision in pursuing a gig or not, I began logging the venue locations and average payout of each performance and used that<br>
+			information to build this calculator.</p>
+			
+			<p>The premise of the calculator is to determine how much I might expect to make at a local venue if I were to accept a gig, assuming I knew a little<br>
+			bit of background information about the gig ahead of time (namely, the weekday of the performance, how many people with which I am playing, and how<br>
+			much money in tips I ancitipate the group to receive).</p>
+			
+			<p>The calculator accepts three different inputs - "Venue," "Tip amount," and "Number of People." Tip amount is entirely optional (assumed zero if no<br>
+			input), and number of people defaults to "one" if no input is given. The Venue is a dropdown of multiple locations along with the relevant weekday,<br>
+			which sometimes affects payment at local jazz gigs (especially at the Des Moines jazz club Noce).</p>
+			
+			<p>Certain elements of the calculator do not display until the projected payment is actually calculated, and the only way to "break" the calculator<br>
+			is to put in words instead of numbers. This only "breaks" it so much as it returns "$NaN" instead of a number, and as soon as the fields are updated<br>
+			with numerical values, the calculator works again.</p>
+
+
+	</section>
+</body>
+
+<!-- Core JS Files -->
+<script src="./assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="./assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="./assets/js/popper.js" type="text/javascript"></script>
+<script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!-- Switches -->
+<script src="./assets/js/bootstrap-switch.min.js"></script>
+
+<!--  Plugins for Slider -->
+<script src="./assets/js/nouislider.js"></script>
+
+<!--  Plugins for DateTimePicker -->
+<script src="./assets/js/moment.min.js"></script>
+<script src="./assets/js/bootstrap-datetimepicker.min.js"></script>
+
+<!--  Paper Kit Initialization snd functons -->
+<script src="./assets/js/paper-kit.js"></script>
+
+</html>

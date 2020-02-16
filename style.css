@@ -7,11 +7,21 @@ html {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  background: url(drumsbw.png) no-repeat center center fixed; 
+  background: url(img/drumsbw.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right, #051C1E, #417f85);
+  color: white;
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: #6B9A9F;
 }
 
 h1 {
@@ -30,20 +40,26 @@ hr {
 	height: .6em;
 }
 
-.btn {
+.btn.btn-info {
 	font-weight: 700;
 	border-radius: 300px;
 	text-transform: uppercase;
-	background-color: #25666C;
-	border-color: #25666C;
+	background-color: #051C1E;
+	border-color: #051C1E;
   padding: 1rem 2rem;
   margin-top: 30px;
 }
 
 .btn.btn-success {
+  font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
   color: white;
   background-color: #25666C;
   border-color: #25666C;
+  padding: 1rem 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .btn.btn-success:hover {
   color: white;
@@ -100,4 +116,9 @@ hr {
 
 li {
   font-weight: lighter;;
+}
+
+.site-footer {
+  background-image: linear-gradient(#6B9A9F, white);
+  padding: 20px 0;
 }
